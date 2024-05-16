@@ -1,11 +1,11 @@
 # python-pente
 Python based Pente game, with AI player
 
-#Pente Game, using Object-Oriented programming techniques
-#Randy Gamage
-#9-AUG-2005
+## Pente Game, using Object-Oriented programming techniques
+### Randy Gamage
+### 9-AUG-2005
 
-#Design Notes:
+## Design Notes:
 There are four main classes, to separate the tasks roughly along the Model, View, Control type
 of design pattern.  The classes are as follows:
 * Matrix - A generic matrix object to store and manipulate a two-dimensional array
@@ -17,14 +17,14 @@ These constants are all related to the View, but for now we'll make them globals
 just because it's easier and makes for cleaner looking code. Eventually these should
 be global only within the View module, but for now all classes are in the same file.
 
-#Deployment notes:
+## Deployment notes:
 Successfully used py2exe to build this script into a windows .exe file.
 It seems to work, even with psyco enabled.
 Next task, use Inno Setup and IStool to create a windows installer for it.
 * www.istool.org
 * www.innosetup.com
 
-#Version Tracking
+## Version Tracking
 * Current Major Version = 0
 * Major Version 0:
 * First major version, initial release through test phases
